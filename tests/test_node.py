@@ -1,6 +1,10 @@
-import pytest
 import json
-from src.node import *
+
+import pytest
+
+from src.node import Node
+from src.block import Block
+
 
 
 @pytest.mark.parametrize('change_by', [1, 2, 3])

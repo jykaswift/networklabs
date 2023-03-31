@@ -1,7 +1,4 @@
-import time
-
-from block import Block
-
+from src.block import Block
 
 class Node:
     block_list = []
